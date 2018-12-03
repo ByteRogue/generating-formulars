@@ -47,7 +47,7 @@ $html = [
 '<div class="field center" style="top:9.76in;left:0.25in;width:0.11in;height:0.10in;"><div class="data-center">'.get_data(-1).'</div></div>'.
 '<div class="field left" style="top:9.88in;left:2.70in;width:5.33in;height:0.19in;"><div class="data-left">'.get_data(-1).'</div></div>'.
 '<div class="field center" style="top:9.92in;left:0.39in;width:0.21in;height:0.11in;"><div class="data-center">'.get_data(-1).'</div></div>'.
-'<div class="field center" style="top:9.93in;left:0.25in;width:0.11in;height:0.10in;"><div class="data-center">'.get_data(-1).'</div></div>'
+'<div class="field center" style="top:9.93in;left:0.25in;width:0.11in;height:0.10in;"><div class="data-center">'.().'</div></div>'
 ,
 
 '<div class="field right" style="top:1.98in;left:0.29in;width:0.29in;height:0.23in;"><div class="data-right">'.(get_data(1310)).'</div></div>'.
@@ -213,7 +213,7 @@ $html = [
 '<div class="field right" style="top:6.94in;left:10.41in;width:1.00in;height:0.23in;"><div class="data-right">'.get_data(-1).'</div></div>'.
 '<div class="field right" style="top:7.18in;left:8.09in;width:1.31in;height:0.20in;"><div class="data-right">'.(get_data(1479)).'</div></div>'.
 '<div class="field right" style="top:7.18in;left:10.41in;width:1.00in;height:0.21in;"><div class="data-right">'.(get_data(1482)).'</div></div>'.
-'<div class="field right" style="top:7.66in;left:9.40in;width:1.00in;height:0.23in;"><div class="data-right">'.(get_data(1316)).'</div></div>'
+'<div class="field right" style="top:7.66in;left:9.40in;width:1.00in;height:0.23in;"><div class="data-right">'.get_data('1316:sg').'</div></div>'
 ,
 
 ];

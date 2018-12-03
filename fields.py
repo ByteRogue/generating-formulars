@@ -1,4 +1,4 @@
-import Image
+from PIL import Image
 
 CELL_WIDTH = 15
 CELL_HEIGHT = 15
